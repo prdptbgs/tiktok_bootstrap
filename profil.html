@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok - Make Your Day</title>
+    <link rel="icon" href="assets/tiktok_icon1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="h-100">
+    <!-- top page -->
+    <div class="container-fluid custom-top">
+        <div class="row">
+            <!-- tiktok logo -->
+            <div class="col-3 text-start pt-2">
+                <img src="assets/tiktok-icon2 23.30.52.png" class="custom-tiktok-icon">
+            </div>
+            <!-- search bar -->
+            <div class="col-6 pt-2 d-flex justify-content-center">
+                <div class="input-group custom-search1">
+                    <input type="search" class="form-control custom-search2" placeholder="Cari" aria-label="search" aria-describedby="search-addon">
+                    <div class="vr text-white"></div>
+                    <i class="bi bi-search input-group-text custom-search2" style="cursor: pointer;"></i>
+                </div>
+            </div>
+            <!-- some icon -->
+            <div class="col-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- unggah button -->
+                        <div class="col-6 text-end custom-margin1">
+                            <button class="btn container custom-bg3">
+                                <div class="row align-items-center">
+                                    <div class="col-4 text-end"><img src="assets/unggah-icon.png" style="width: 22px; height: 20px;cursor: pointer;"></div>
+                                    <div class="col-8 text-white">Unggah</div>
+                                </div>
+                            </button>
+                        </div>
+                        <!-- pesan button -->
+                        <div class="col-2 pt-3 text-white">
+                            <img src="assets/pesan-icon.png" alt="pesan" class="custom-icon2">
+                        </div>
+                        <!-- kotak masuk button -->
+                        <div class="col-2 pt-3 text-white">
+                           <img src="assets/kotak-masuk-icon.png" alt="Kotak Masuk" class="custom-icon2">
+                        </div>
+                        <!-- profile icon -->
+                        <div class="col-2 pt-3 text-white">
+                            <!-- dropdown ketika profile diklik -->
+                            <div class="dropdown">
+                                 <img src="assets/profil.png" alt="Profile" class="custom-icon3" data-bs-toggle="dropdown" aria-expanded="false">
+                                 <ul class="dropdown-menu dropdown-menu-dark">
+                                    <!-- dropdown menu lihat profile -->
+                                    <li>
+                                        <div class="container">
+                                            <a href="profil.html" style="text-decoration: none;">
+                                               <div class="row align-items-center">
+                                                    <div class="col-2">
+                                                        <img src="assets/dropdown-icon/lihat-profil-drop.png" style="height: 23px; width: 25px;">
+                                                    </div>
+                                                    <div class="col-10">
+                                                        <div class="dropdown-item">Lihat profil</div>
+                                                    </div>
+                                                </div>         
+                                            </a>
+                                        </div>    
+                                    </li>
+                                    <!-- dropdown menu favorit -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/favorit-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item">Favorit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu beli koin -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/beli-koin-drop.png" style="height: 25px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item">Beli Koin</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu lihat analisis -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/analisis-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item">Lihat Analisis</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu live studio -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/live-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item">LIVE Studio</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu pengaturan -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/pengaturan-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item">Pengaturan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu bahasa indonesia -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/bahasa-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item">Bahasa Indonesia</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu umpan balik dan bantuan -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/umpan-balik-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item" style="padding-right: 40px;">Umpan balik dan bantuan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu pintasan -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/pintasan-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="" class="dropdown-item">Pintasan</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- dropdown menu keluar -->
+                                    <li>
+                                        <div class="container">
+                                            <div class="row align-items-center">
+                                                <div class="col-2">
+                                                    <img src="assets/dropdown-icon/keluar-drop.png" style="height: 23px; width: 25px;">
+                                                </div>
+                                                <div class="col-10">
+                                                    <a href="login.html" class="dropdown-item">Keluar</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- body -->
+    <div class="container-fluid custom-body">
+        <div class="row py-4">
+            <!-- container untuk profile dan button kiri -->
+            <div class="col-3 container-body1 overflow-auto">
+                <!-- button untuk anda -->
+                <div class="container">
+                    <a href="untuk_anda.html" style="text-decoration: none;">
+                        <div class="row align-items-center">
+                            <div class="col-3">
+                                <img src="assets/untuk_anda/untuk-anda.png" class="custom-icon4">
+                            </div>
+                            <div class="col-9" style="font-weight: bold; color: white;">
+                                Untuk Anda
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- button mengikuti -->
+                <div class="container">
+                    <div class="row align-items-center pt-2">
+                        <div class="col-3">
+                            <img src="assets/untuk_anda/mengikuti.png" class="custom-icon4">
+                        </div>
+                        <div class="col-9 text-start" style="font-weight: bold;">
+                            Mengikuti
+                        </div>
+                    </div>
+                </div>
+                <!-- button teman -->
+                <div class="container">
+                    <div class="row align-items-center pt-2">
+                        <div class="col-3">
+                            <img src="assets/untuk_anda/teman.png" class="custom-icon4">
+                        </div>
+                        <div class="col-9" style="font-weight: bold;">                                    
+                                Teman
+                        </div>
+                    </div>
+                </div>
+                <!-- button jelajahi -->
+                <div class="container">
+                    <a href="jelajahi.html" style="text-decoration: none; color: white;">
+                        <div class="row align-items-center pt-2">
+                            <div class="col-3">
+                                <img src="assets/untuk_anda/jelajahi.png" class="custom-icon4">
+                            </div>
+                            <div class="col-9" style="font-weight: bold;">
+                                Jelajahi
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+                <!-- button live -->
+                <div class="container">
+                    <div class="row align-items-center pt-2">
+                        <div class="col-3">
+                            <img src="assets/untuk_anda/live.png" class="custom-icon4">
+                        </div>
+                        <div class="col-9" style="font-weight: bold;">
+                                Live
+                        </div>
+                    </div>
+                </div>
+                <!-- button profile -->
+                <div class="container">
+                    <a href="profil.html" style="text-decoration: none;">
+                        <div class="row align-items-center pt-2">
+                            <div class="col-3">
+                                <img src="assets/profil.png" class="custom-icon4" style="border-radius: 50%;" >
+                            </div>
+                            <div class="col-9" style="font-weight: bold; color: #FF3D5D;">
+                            Profil
+                            </div>
+                        </div>
+                    </a>
+                </div>
+               <!-- divider antara button atas dan daftar mengikuti -->
+                <div class="custom-divider2">
+                    <hr>
+                </div>
+                <!-- akun yang diikuti -->
+    <div style="font-size: small; font-weight: 600;  padding-left: 15px; color: #CBCBCB;">
+                    Akun yang diikuti
+                </div>
+                <!-- daftar mengikuti 1 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic1.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">darren</div>
+                            <div class="username">darrenard</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 2 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic2.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">egy</div>
+                            <div class="username">seggyfer</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 3 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic3.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">wahhab</div>
+                            <div class="username">wahhabGG</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 4 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic4.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">ego</div>
+                            <div class="username">egowi</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 5 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic5.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">reza</div>
+                            <div class="username">rezapram</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 6 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic6.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">fadil</div>
+                            <div class="username">fadilsup</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 7 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic7.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">dicky</div>
+                            <div class="username">dickyset</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 8 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic8.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">nova</div>
+                            <div class="username">novawia</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 9 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic9.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">ilham</div>
+                            <div class="username">saifulyusuf</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- daftar mengikuti 10 -->
+                <div class="container daftar-mengikuti">
+                    <div class="row p-1 align-items-center">
+                        <div class="col-3">
+                            <img src="assets/profile-pic/profile-pic10.jpeg" class="custom-icon3">
+                        </div>
+                        <div class="col-9">
+                            <div class="name">faisal</div>
+                            <div class="username">faisalm</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-left: 15px; padding-top: 5px;">
+                    <a href="#" style="text-decoration: none; font-size: small; color: #FF3D5D;">Lihat lainnya</a>
+                </div>
+                <!-- divider antara profile dan buat efek tiktok -->
+                <div class="custom-divider2">
+                    <hr>
+                </div>
+                <!-- buat efek tiktok -->
+                <div class="container">
+                    <div class="row">
+                        <button class="btn">
+                            <img src="assets/buat-efek-tiktok.png" class="custom-buat-efek-tiktok">
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="container" style="margin-top: 20px;">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Tentang Ruang Berita Kontak
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Karier
+                    </a>
+                </div>
+                <div class="container" style="margin-top: 10px;">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Tiktok for Good Iklan
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Tiktok LIVE Creator Networks
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Developer Transparansi
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Reward Tiktok Tiktok Embeds
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Tiktok Music
+                    </a>
+                </div>
+                <div class="container" style="margin-top: 10px;">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Bantuan Keamanan Ketentuan
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Kebijakan Privasi Pusat Privasi
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Portal Kreator Halaman Kebijakan
+                    </a>
+                </div>
+                <div class="container" style="margin-top: 10px;">
+                    <a href="#" style="font-size: small; text-decoration: none; color: #C3C3C3;">
+                        Lainnya
+                    </a>
+                </div>
+                <div class="container" style="font-size: small; text-decoration: none; color: #C3C3C3; margin-top: 10px;">
+                    &copy; 2024 Tiktok
+                </div>
+            </div>
+            <!-- kolom kanan -->
+            <div class="col-9">
+                <div class="overflow-auto container-body2">
+                    <!-- top page -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-7">
+                                <div class="container">
+                                    <div class="row">
+                                        <!-- photo profile -->
+                                        <div class="col-3 text-end">
+                                            <img src="assets/profil.png" style="height: 110px; width: 110px; border-radius: 50%;">
+                                        </div>
+                                        <!-- name and username -->
+                                        <div class="col-6 mt-2">
+                                            <h1 style="font-weight: bold; font-size: xx-large;">prdptbgs</h1>
+                                            <h4 style="font-size: large;">dptaa</h4>
+                                            <!-- edit profile button -->
+                                            <button class="btn" style="border: white; width: 130px; background-color: #252525; color: white;" type="button">
+                                                <img src="assets/profile/edit-profil.png" style="width: 28px; height: 26px;">
+                                                edit profil
+                                            </button>
+                                        </div>
+                                        <!-- share profile button -->
+                                        <div class="col-3 mt-2">
+                                            <img src="assets/in-vid/share.png" style="height: 35px; width: 35px; ">
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <!-- kosong -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mengikuti, pengikut, suka -->
+                    <div class="container mt-3">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="container">
+                                    <div class="row">
+                                        <!-- mengikuti -->
+                                        <div class="col-4 d-flex align-items-center">
+                                            <div style="margin-right: 3px; margin-left: 13px; font-weight: bold; font-size: large;">44 </div>
+                                            <div>mengikuti</div>
+                                        </div>
+                                        <!-- pengikut -->
+                                        <div class="col-4 d-flex align-items-center">
+                                            <div style="margin-right: 3px; margin-left: 25px; font-weight: bold; font-size: large;">21 </div>
+                                            <div>pengikut</div>
+                                        </div>
+                                        <!-- suka -->
+                                        <div class="col-4 d-flex align-items-center">
+                                            <div style="margin-right: 3px; margin-left: 25px; font-weight: bold; font-size: large;">121</div>
+                                            <div>suka</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <!-- kosong -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- belum ada biodata -->
+                    <div class="mt-2" style="margin-left: 35px;">
+                        Belum ada biodata.
+                    </div>
+                    <!-- Video, Favorit, Disukai -->
+                    <div class="container pt-3">
+                        <div class="row">
+                            <div class="col-4" style="margin-left: 35px;">
+                                <div class="container">
+                                    <div class="row align-items-end">
+                                        <div class="col-3 px-3 custom-btn3">
+                                            Video
+                                        </div>
+                                        <div class="col-3 d-flex align-items-end mx-3 custom-btn3">
+                                            <img src="assets/profile/lock.png" style="height: 20px; width: 20px;">
+                                            Favorit
+                                        </div>
+                                        <div class="col-3 d-flex align-items-end mx-3 custom-btn3" >
+                                            <img src="assets/profile/lock.png" style="width: 20px; width: 20px;">
+                                            Disukai
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <!-- kosong -->
+                            </div>
+                        </div>
+                    </div>
+                    <div style="color: #C3C3C3; margin-top: -8px;">
+                        <hr>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="assets/content-tiktok/private-content1.png" style="height: 245px; width: 190px;">
+                            </div>
+                            <div class="col-3"></div>
+                            <div class="col-3"></div>
+                            <div class="col-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

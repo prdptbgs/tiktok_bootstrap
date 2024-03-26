@@ -1,0 +1,243 @@
+/* login.html & register.html */
+.custom-card{
+    width: 483px;
+    height: auto;
+}
+.custom-bg1{
+    background-color: #060606;
+}
+.custom-bg2{
+    background-color: #252525;
+}
+.custom-btn1{
+    background-color: #363636;
+    width: 337px;
+    height: 44px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.custom-btn1:hover{
+    border: 1px solid white;
+    background-color: #121212;
+}
+.custom-btn2{
+    width: 337px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #FF3D5D;
+}
+.custom-btn2:hover{
+    background-color: #F12A52;
+}
+
+.border-top{
+    width: 180px;
+}
+
+.custom-icon1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.custom-divider{
+    width: 40px;
+}
+
+
+
+/* untuk_anda.html top */
+.custom-tiktok-icon{
+    width: 118px;
+    height: 42px;
+}
+.custom-top{
+    background-color: #121212;
+    height: 60px;
+    border-bottom: 1px solid #282828;
+}
+.custom-icon2{
+    width: 26;
+    height: 26px;
+    cursor: pointer;
+}
+.custom-icon3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.custom-margin1{
+    margin-top: 13px;
+}
+.custom-bg3{
+    background-color: #252525; 
+    width: 121px; 
+    height: 36px;
+}
+.custom-bg3:hover{
+    background-color: #1B1B1B;
+}
+.custom-icon-search{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+.custom-search1{
+    width: 463px; 
+    height: 43px;
+    background-color: #2F2F2F;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+.custom-search2{
+    color: #CBCBCB;
+    text-decoration: none;
+    background-color: #2F2F2F;
+    border: none;
+}
+.custom-search2:focus{
+    background-color: #2F2F2F;
+}
+.custom-search2::placeholder{
+    color: #CBCBCB;
+}
+.vr{
+    height: 60%;
+    margin-top: 9px;
+}
+/* untuk_anda.html body */
+.custom-body{
+    background-color: #121212;
+    color: white;
+}
+.container-body1{
+    height: 600px;
+    width: 230px;
+}
+.custom-divider2{
+    width: 230px;
+}
+.container-body2{
+    height: 600px;
+}
+.custom-icon4{
+    width: 32px;
+    height: 32px;
+}
+.daftar-mengikuti:hover{
+    background-color: #1B1B1B;
+}
+.name{
+    font-weight: bold;
+    font-size: medium;
+
+}
+.username{
+    font-size: x-small;
+}
+.custom-buat-efek-tiktok{
+    width: 195px;
+    height: 50px;
+}
+.custom-icon-drop{
+    height: 23px;
+    width: 25px;
+}
+.custom-icon-body{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    /* margin-top: 25px; */
+}
+.btn-ikuti{
+    width: 96px;
+    height: 36px;
+    border: 1px solid #F12A52;
+    border-radius: 0%;
+    color: #F12A52;
+}
+.btn-ikuti:hover{
+    border: 1px solid#F12A52;
+    color: #F12A52;
+    background-color: #251618;
+}
+.name1{
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.name1:hover{
+    text-decoration: underline;
+}
+.username1{
+    font-weight: lighter;
+    font-size: small;
+    letter-spacing: 0.5px;
+    padding-top: 3px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.song{
+    font-size: small;
+    cursor: pointer;
+
+}
+.song:hover{
+    text-decoration: underline;
+}
+.button-in{
+    height: 35px;
+    width: 35px;
+}
+.icon-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2F2F;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.icon-circle:hover{
+    background-color: #282828;
+}
+.custom-btn3{
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.custom-btn3:hover{
+    text-decoration: underline;
+}
+
+/* jelajahi  */
+.btn-jelajahi-active1{
+    background-color: white; 
+    color: black;
+}
+.btn-jelajahi-active1:hover{
+    background-color: #252525; 
+    color: #CBCBCB;
+}
+.btn-jelajahi-active2{
+    background-color: #252525; 
+    color: #CBCBCB;
+}
+.btn-jelajahi-active2:hover{
+    background-color: #2A2A2A;
+    color: #CBCBCB;
+}
+.jelajahi-content{
+    height: 380px; 
+    width: 273px;
+}
+.desc-jelajahi-content{
+    width: 273px;
+    height: 70px;
+}
